@@ -226,28 +226,28 @@ console.log(new A() == new B()); //true
 // alert( "Sum=" + calculator.sum() );
 // alert( "Mul=" + calculator.mul() );
 
-function Calc() {
-  this.read = function () {
-    this.a = +prompt("a", 0);
-    this.b = +prompt("b", 0);
-  };
+// function Calc() {
+//   this.read = function () {
+//     this.a = +prompt("a", 0);
+//     this.b = +prompt("b", 0);
+//   };
 
-  this.sum = function () {
-    return this.a + this.b;
-  };
+//   this.sum = function () {
+//     return this.a + this.b;
+//   };
 
-  this.subs = function () {
-    return this.a - this.b;
-  };
+//   this.subs = function () {
+//     return this.a - this.b;
+//   };
 
-  this.mul = function () {
-    return this.a * this.b;
-  };
+//   this.mul = function () {
+//     return this.a * this.b;
+//   };
 
-  this.div = function () {
-    return this.a / this.b;
-  };
-}
+//   this.div = function () {
+//     return this.a / this.b;
+//   };
+// }
 
 const calculator = new Calc();
 calculator.read();
