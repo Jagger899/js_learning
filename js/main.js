@@ -4,4 +4,6 @@
 // import './loop.js';
 // import './objects.js';
 // import './calculator.js';
-import './arrays.js';
+// import './arrays.js';
+// import './classes.js';
+import './classes-toDo.js';

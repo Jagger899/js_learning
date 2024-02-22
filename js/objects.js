@@ -288,4 +288,4 @@ alert(accum.value);
 
 let user7 = {}; // користувач без властивості "address"
 
-console.log(user7?.address?.street);
+console.log(user7?.address?.street);5
